@@ -1,0 +1,11 @@
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.heading {
+  font-weight: 600;
+  size: 32px;
+}
