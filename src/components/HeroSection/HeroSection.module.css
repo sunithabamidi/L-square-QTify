@@ -1,8 +1,11 @@
 .heroSection {
   display: flex;
+  height: 270px;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: 100%;
+  gap: 30px;
 }
 
 .heading {

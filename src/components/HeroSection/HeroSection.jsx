@@ -6,8 +6,8 @@ const HeroSection = () => {
   return (
     <div className={styles.heroSection}>
       <div className={styles.heading}>
-        <p>100 Thousand Songs, ad-free</p>
-        <p>Over thousands podcast episodes</p>
+        <h1>100 Thousand Songs, ad-free</h1>
+        <h1>Over thousands podcast episodes</h1>
       </div>
       <img src={Headphone} alt="hero" width={212} />
     </div>
