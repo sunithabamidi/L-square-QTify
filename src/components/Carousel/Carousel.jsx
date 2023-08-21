@@ -9,7 +9,7 @@ import CarouselRightNavigation from "./CarouselRightNavigation/CarouselRightNavi
 const Controls = ({ data }) => {
   const swiper = useSwiper();
 
-  console.log(swiper);
+  // console.log(swiper);
 
   useEffect(() => {
     swiper.slideTo(0);
