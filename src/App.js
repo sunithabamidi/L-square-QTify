@@ -4,7 +4,6 @@ import Section from "./components/Section/Section";
 import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from "./api/api";
 import React, { useEffect, useState } from "react";
 import styles from "./App.module.css";
-// import Songs from "./components/Songs/Songs";
 
 function App() {
   const [TopAlbums, setTopAlbums] = useState([]);
