@@ -53,7 +53,7 @@ function App() {
     } else if (value === 3) {
       key = "jazz";
     } else if (value === 4) {
-      key = "bluez";
+      key = "blues";
     }
 
     const res = songsData.filter((item) => item.genre.key === key);
