@@ -4,6 +4,7 @@ import Section from "./components/Section/Section";
 import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from "./api/api";
 import React, { useEffect, useState } from "react";
 import styles from "./App.module.css";
+import BasicAccordion from "./components/Accordion/Accordion";
 
 function App() {
   const [TopAlbums, setTopAlbums] = useState([]);
@@ -89,6 +90,7 @@ function App() {
           value={value}
           handleChange={handleChange}
         />
+        <BasicAccordion />
       </div>
     </>
   );
